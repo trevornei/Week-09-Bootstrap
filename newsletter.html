@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 09 Assignment: Bootstrap Webpage - Contact Sales Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+</head>
+<body class="bg-black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CLIMBED.COM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="newsletter.html">Newsletter</a>
+              </li>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">Sales</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Main Content-->
+      <main>
+        <div class="">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="img/card-imgs/card-photo.jpg" class="card-img-top" alt="A person being belayed up a climb on granite rock.">
+                <div class="card-body">
+                  <h5 class="card-title">Lead Climbing 101</h5>
+                  <p class="card-text">Imagine yourself suspended dozens of feet above the ground, feeling the cool rock under your fingertips as you seek the next holdp>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/card-imgs/card-photo-2.jpg" class="card-img-top" alt="A person slack-lining high in the air">
+                <div class="card-body">
+                  <h5 class="card-title">Learning How to Fall: Lead</h5>
+                  <p class="card-text">Embracing the unexpected tumble, 'Learning How to Fall' unravels the art of controlled descent in climbing, where conquering fear and mastering technique transform a potential failure into a vital skill for success.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/card-imgs/card-photo-3.jpg" class="card-img-top" alt="A man drinking coffee watching next to a tent in snowy mountains.">
+                <div class="card-body">
+                  <h5 class="card-title">10 Camping Tips for...</h5>
+                  <p class="card-text">From choosing the perfect site to building a roaring campfire, '10 Camping Tips for...' unveils the insider secrets that transform a night in the wilderness into an unforgettable outdoor experience.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/card-imgs/card-photo-4.jpg" class="card-img-top" alt="A group of people sleeping next to a campfire in the mountains.">
+                <div class="card-body">
+                  <h5 class="card-title">The Mystery of Route Finding</h5>
+                  <p class="card-text">In an odyssey reminiscent of old, 'The Mystery of Route Finding' delves into the enigmatic art of navigation, where trails twist and paths perplex, and where, dear reader, the pursuit of direction becomes as tantalizing and elusive as the green light across the bay.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <img src="img/pexels-andre-moura-3774895.jpg" alt="Blue sky background" class="sky-img">  
+      </div>
+      <div class="container">
+        <div class="container bg-body-secondary p-5 mt-5">
+          <h1 class="">Join Our Newsletter!</h1>
+
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I agree to the terms of service.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        
+        </div>
+      </div>
+      </main>
+
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
