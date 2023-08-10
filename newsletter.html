@@ -34,12 +34,24 @@
       <!--Main Content-->
       <main>
         <div class="">
+          <!--NOTE: 
+            1. Row creates a container with horizontal rows for content to be placed.
+            2. row-cols-1: Implies at the smallest screen size (xs) each row will have one column. Content will then vertically stack on one another.
+            3. row-cols-md-2: At the medium breakpoint rows will have 2 columns. My code shows this when you go from the smalles breakpoint to to (md) that the newsletter articles have two cards per row.
+            4. g-4: Adjusts gutter spacing between columns. 
+          -->
           <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!--Class col lets the content take up a third of the rows defined width.-->
             <div class="col">
+              <!--.card sets up the container for the content.-->
               <div class="card">
+                <!--img element holds information for the path, alt description for accessibile technologies like screen readers.-->
                 <img src="img/card-imgs/card-photo.jpg" class="card-img-top" alt="A person being belayed up a climb on granite rock.">
+                <!--.card-body is a child element/div of card. This will store the housing for the text.-->
                 <div class="card-body">
+                  <!--.card-title lets bootstrap apply styling to heading/h5 element-->
                   <h5 class="card-title">Lead Climbing 101</h5>
+                  <!--.card-text is a text description that gives the user a preview of information about the link.-->
                   <p class="card-text">Imagine yourself suspended dozens of feet above the ground, feeling the cool rock under your fingertips as you seek the next holdp>
                 </div>
               </div>
