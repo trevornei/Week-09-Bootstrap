@@ -8,9 +8,26 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 </head>
 <body class="bg-black">
+  <!--Used nav element for accessibility and simplicity.-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!--.container fluid spans the area inside the div, the width of the viewport.-->
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">CLIMBED.COM</a>
+        <!--.navbar-brand is used for company/project name.
+            Hypertext reference points back to index.html-->
+        <a class="navbar-brand" href="index.html">CLIMBED.COM</a>
+        <!--
+          NOTE: This button is toggled (user chooses to active one of two predefined conditions.)
+
+          Two new concepts to me: 
+          1. ARIA: (Accessbile Rich Internet Application)
+          2. data-bs: This `data` attribute is used in many frameworks including vanilla JS. The `-bs` lets bootstrap know that this attribute is to be used by the framework.
+
+          data-bs-toggle="collapse" defines the behavior of the element(expand or collapse).
+
+          data-bs-target="#navbarNavDropdown" points where the element is controlled. 
+
+          aria-expanded="false" means that the default state for the element is collapsed.
+        -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
