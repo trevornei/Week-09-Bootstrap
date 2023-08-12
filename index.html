@@ -78,22 +78,30 @@
       <!--This image is the hero background image. The class .climbing-img sets it's z-index and position so it is placed behind the quote and inside the hero section.-->
       <img src="/img/pexels-cottonbro-studio-6674277.jpg" alt="Man and woman talking about climbing." class="climbing-img">
     </section>
-    <!---->
+    <!--Parent container for both title and table.-->
     <div class="results">
+        <!--Title for the table: La Dura Dura Climbing Comp Results-->
         <div class="container-md comp-header">
           <h3 class="text-white"><span>La Dura Dura Climbing Comp Results</span></h3>
         </div>
+          <!--.table-container applies styling to the table-->
           <div class="table-container">
+          <!--.table-dark and .table-striped style border and bg of container.-->
           <table class="table table-dark table-striped">
+            <!--thead contains information that will be displayed in each corresponding column.-->
             <thead>
+              <!--tr creates a row to display th elements horizontally.-->
               <tr>
+                <!--scope="col" creates a column for the content that is meant to be in the column.-->
                 <th scope="col">Place</th>
                 <th scope="col">First</th>
                 <th scope="col">Last</th>
                 <th scope="col">Country</th>
               </tr>
             </thead>
+            <!--tbody displays the main content of the table where the real data is displayed.-->
             <tbody>
+              <!--Each tr represents a table row for each 'participant' (in this case) fist is place, second is first name, third is last name, and fourth is the country.-->
               <tr>
                 <th scope="row">1</th>
                 <td>IZIAR</td>
@@ -116,7 +124,6 @@
           </table>
           </div>
         </div>
-        <div class="container bg-white"></div>
       </main>
       <footer class="container-fluid">
       <div class="footer-b bg-black text-white">
