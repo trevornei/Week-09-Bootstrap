@@ -29,11 +29,19 @@
           aria-expanded="false" means that the default state for the element is collapsed.
         -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <!--The button icon itself.-->
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!--The data-bs-target attribute points to the id="navbarNavDropdown"
+            When the button is clicked, the content will toggle.
+            .collapse will hide content until toggled.
+            .navbar-collapse styles and positions  -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <!--.navbar-nav styles ul and corresponding li elements.-->
           <ul class="navbar-nav">
+            <!--Styles and positions li elements.-->
             <li class="nav-item">
+              <!--Accessible Rich Internet Application (aria) is for accessibility.-->
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
