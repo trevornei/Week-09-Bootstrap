@@ -35,6 +35,11 @@ section {
     align-items: center;
     justify-content: center;
 }
+
+/*
+Position absolute puts the element nearest to the closest ancestor. 
+object-fit: cover allows the img to preserve its aspec ratio given its base dimensions. 
+*/
 .climbing-img {
     position: absolute;
     top: 0;
