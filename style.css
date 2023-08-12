@@ -1,6 +1,9 @@
+/*UNIVERSAL STYLING*/
 * {
     text-align: center;
 }
+
+/*INDEX.HTML*/
 
 section {
     display: flex;
@@ -8,37 +11,42 @@ section {
     justify-content: center;
 }
 
+/*Landing page hero container spans the width and height of the viewport.*/
 .hero {
     height: 100vh;
     width: 100%;
     overflow: hidden;
 }
 
+/*Applies 5% margin to the top and bottom margin as well as 10% margin to left and right sides.*/
 .card {
     margin: 5% 10%;
 }
 
+/*Adds margin to the top and bottom of the table that resides on index.html*/ 
 .table {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
+/*Horizontally applies margin to table element.*/ 
 .table-container {
     margin-left: 10%;
     margin-right: 10%;
 }
 
+/*Horizontally and vertically centers the title plus applies margin.*/
 .comp-header {
     margin: 20px 10%;
-    display: block;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /*
-Position absolute puts the element nearest to the closest ancestor. 
-object-fit: cover allows the img to preserve its aspec ratio given its base dimensions. 
+    Position absolute puts the element nearest to the closest ancestor. 
+    object-fit: cover allows the img to preserve its aspec ratio given its base dimensions. 
+    z-index: -1 displays the image behind the quote on index.html
 */
 .climbing-img {
     position: absolute;
@@ -50,6 +58,7 @@ object-fit: cover allows the img to preserve its aspec ratio given its base dime
     z-index: -1;
 }
 
+/*defines area for footer and vertically and horizontally centers child elements*/
 .footer-b {
     height: 150px;
     width: 100%;
@@ -59,8 +68,9 @@ object-fit: cover allows the img to preserve its aspec ratio given its base dime
     justify-content: center;
 }
 
-/* Sales.html*/
+/*SALES.HTML*/
 
+/*Same style and positioning as applied to .climbing-img*/
 .sky-img {
     position: absolute;
     top: 0;
@@ -71,6 +81,7 @@ object-fit: cover allows the img to preserve its aspec ratio given its base dime
     z-index: -1;    
 }
 
+/*This controls proportions of the images inside the cards of that would link to hypothetical articles.*/ 
 .card-img-top {
     width: 100%;
     height: 150px;
