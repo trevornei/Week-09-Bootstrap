@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 </head>
+<!--Nav bar has been described @ index.html-->
 <body class="bg-black">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -87,13 +88,24 @@
         
         <img src="img/pexels-andre-moura-3774895.jpg" alt="Blue sky background" class="sky-img">  
       </div>
+      <!--This container holds the form title and the form.-->
       <div class="container">
         <div class="container bg-body-secondary p-5 mt-5">
           <h1 class="">Join Our Newsletter!</h1>
 
           <form>
+            <!--Applies a margin to the bottom.-->
             <div class="mb-3">
+              <!--Forms have two main elements: 1) input 2) label
+              - Label lets assitive technologies and other users know what information needs to be inputed.  
+              -->
               <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <!--input has 4 attributes: 
+              1. type="email" specifies what input type.
+              2. class="form-control" applies styling to form elements.
+              3. id="exampleInputEmail1" associates the corresponding fleild with it's label.
+              4. aria-describedby="emailHelp" improves accesibility for screenreaders. 
+              -->
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
